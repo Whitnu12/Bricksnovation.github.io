@@ -9,7 +9,7 @@
   </head>
   <body class="font-sans">
     <!-- Start Navbar -->
-    <nav class="bg-black px-2 py-3 fixed w-full text-red-700" style="color: #fff">
+    <nav class="bg-black px-2 py-3 fixed w-full text-red-700 z-10" style="color: #fff">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="#" class="flex items-center">
           <span class="self-center text-xl whitespace-nowrap text-white"><b>Bricks</b>Novation</span>
@@ -49,8 +49,10 @@
     </nav>
     <!-- End Navbar -->
     <!-- Header -->
-    <section id="Header" class="w-full bg-cover">
-      <h1 class="absolute translate-x-1">Whitnu</h1>
+    <section id="Header" class="w-full bg-cover relative">
+      <div class="md:bg-green-500">
+        <h1 class="absolute text-3xl bg-black p-2 block text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><b>Bricks</b>Novation</h1>
+      </div>
       <img src="../src/img/ezgif.com-gif-maker.webp" class="bg-cover w-full h-full" alt="Header" />
     </section>
   </body>
