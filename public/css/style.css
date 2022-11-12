@@ -1267,6 +1267,10 @@ input:checked + .toggle-bg {
   width: 10rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -1702,6 +1706,11 @@ input:checked + .toggle-bg {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-normal {
