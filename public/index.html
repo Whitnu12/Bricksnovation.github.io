@@ -30,7 +30,7 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="flex flex-wrap p-4 pt-4">
             <li>
-              <a href="#product" class="scroll-smooth hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Product</a>
+              <a href="#Product" class="scroll-smooth hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Product</a>
             </li>
             <li>
               <a href="#" class="hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Service</a>
@@ -52,7 +52,7 @@
     </header>
     <!-- End Navbar -->
     <!-- Hero -->
-    <section class="pt-40 bg-black pb-40">
+    <section class="pt-40 bg-black pb-20">
       <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
         <!-- content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -64,27 +64,29 @@
           </div>
           <!-- image -->
         </div>
-        <div class="flex justify-center   flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+        <div class="flex justify-center   flex-1 mb-10 md:mb-16 lg:mb-0 z-10 hover:scale-110">
           <img src="../src/img/png_20221119_102117_0000.png" class="w-3/6 h-3/6 sm:w-3/4 sm:h-3/4 md:w-1/2 md:h-1/2 rounded-full" alt="">
         </div>
        
         </div>
+        <div class="relative bottom-0 animate-bounce w-6 h-6 text-center left-1/2 right-1/2 top-20">
+          <img src="../src/img/down-arrow-svgrepo-com.svg" alt="">
+        </div>
       <!-- rounded Rectangle  --> 
       <!-- <div class="hidden md:block overflow-hidden bg-coba-gray rounded-l-full absolute h-80 w-1/2 top-32 right-0"></div> -->
-
-      </div>    
     </section>
     <!-- End Hero -->
     <!-- Product -->
-    <section id="Product" class="my-10 mx-10 text-white">
+    <section id="Product" class="my-10 mx-10 text-white pt-32">
       <h1 class="text-4xl font-bold text-center "> Meet Our Product!</h1>
-      <!-- Card 1 -->
-      <div class="p-10 grid grid-cols-3 gap-3 max-sm:grid-cols-1">
+      
+      <div class="p-10 grid grid-cols-3 gap-6 max-sm:grid-cols-1">
+        <!-- Card 1 -->
         <div class="rounded overflow-hidden shadow-lg bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg">
           <img class="w-fit my-3 mx-20"  src="../src/img/ecommerce-svgrepo-com.svg" alt="Mountain">
 
           <div class="px-6 py-4">
-            <div class="font-bold text-xl  text-white mb-2">E-Commerce</E-Commerce></div>
+            <div class="font-bold text-xl  text-white mb-2">E-Commerce</div>
             <p class="text-gray-400 text-base font-sans">
 Memberikan Kemudahan terhadap proses penjualan anda dengan menjadikan bisnis anda <b>Go-Online</b> dengan membuat sebuah Online Shop yang bisa anda kelola sendiri            </p>
           </div>
@@ -96,10 +98,10 @@ Memberikan Kemudahan terhadap proses penjualan anda dengan menjadikan bisnis and
         </div>
         <!--Card 2-->
         <div class="rounded overflow-hidden shadow-lg bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg">
-          <img class="w-fit my-3 mx-20"  src="../src/img/education-svgrepo-com.svg" alt="Mountain">
+          <img class="w-fit my-3 mx-20 hover:"  src="../src/img/education-svgrepo-com.svg" alt="Mountain">
 
           <div class="px-6 py-4">
-            <div class="font-bold text-xl  text-white mb-2">E-Ducation</E-Commerce></div>
+            <div class="font-bold text-xl  text-white mb-2">E-Ducation</div>
             <p class="text-gray-400 text-base font-sans">
               Kami siap membantu Sekolah dan kursus <b>Go-Digital</b>. memanfaatkan teknologi adalah perubahan pendidikan yang baik untuk indonesia            </p>
           </div>
@@ -129,15 +131,18 @@ Memberikan Kemudahan terhadap proses penjualan anda dengan menjadikan bisnis and
       </div>
     </section>
     <!-- End Product -->
-    <section id="service" class="text-white">
-      <h1 class="text-5xl text-center text-white max-md:text-4xl"> What we <b>Offer</b> to you?</h1> 
-      <div class="flex container items-center">
-        <div class="my-5 ml-5">
+    <!-- Start Service  -->
+    <section id="service" class="  p-6">
+      <h1 class="text-5xl text-center text-coba-gray max-md:text-4xl"> What we <b>Offer</b> to you?</h1> 
+      <div class="flex flex-col my-10 container justify-start lg:flex-row items-center gap-20 ">
+        <div class="text-coba-gray justify-center lg:justify-start ">
           <h1 class="text-4xl font-semibold my-5" > Team on Demand </h1>
           <p class="flex w-72 "> Team on demand was a service that provide you a team for research what process that we can cut and make it more efficient for your Business</p>
+        </div> 
+        <div class="flex flex-row w-full justify-end rounded-xl">
+          <img src="../src/img/ezgif.com-gif-maker.webp">
         </div>
-      </div>
-      <img src="../src/img/ezgif.com-gif-maker.webp" alt="" class="">
+      </div>      
     </section>
   </body>
 </html>
