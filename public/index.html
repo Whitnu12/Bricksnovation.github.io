@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coba tailwind</title>
+    <title>Brick Novation</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="font-sans bg-black">
+  <body class="font-sans bg-black scroll-smooth">
     <!-- Start Navbar -->
     <header>
     <nav class=" px-2 py-3 fixed w-full z-20 bg-opacity-10 bg-white backdrop-filter backdrop-blur-lg" style="color: #fff">
@@ -30,7 +30,7 @@
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="flex flex-wrap p-4 pt-4">
             <li>
-              <a href="#product" class="scroll-smooth hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Product</a>
+              <a href="#Product" class="scroll-smooth hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Product</a>
             </li>
             <li>
               <a href="#" class="hover:text-blue-500 text-white py-3 px-3 pl-3 rounded md-bg-transparent md:border-0">Service</a>
@@ -52,7 +52,7 @@
     </header>
     <!-- End Navbar -->
     <!-- Hero -->
-    <section class="pt-40 bg-black pb-40">
+    <section class="pt-40 bg-black pb-20">
       <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
         <!-- content -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
@@ -69,17 +69,18 @@
         </div>
        
         </div>
-        <div class="relative bottom-0 animate-bounce w-6 h-6 text-center left-1/2 top-20">
+      <div class="relative bottom-0 animate-bounce w-6 h-6 text-center left-1/2 right-1/2 top-20">
           <img src="../src/img/down-arrow-svgrepo-com.svg" alt="">
-        </div>
+      </div>
       <!-- rounded Rectangle  --> 
       <!-- <div class="hidden md:block overflow-hidden bg-coba-gray rounded-l-full absolute h-80 w-1/2 top-32 right-0"></div> -->
 
-      </div>    
+      </div>   
+    </div> 
     </section>
     <!-- End Hero -->
     <!-- Product -->
-    <section id="Product" class="my-10 mx-10 text-white">
+    <section id="Product" class="my-10 mx-10 text-white pt-32">
       <h1 class="text-4xl font-bold text-center "> Meet Our Product!</h1>
       <!-- Card 1 -->
       <div class="p-10 grid grid-cols-3 gap-6 max-sm:grid-cols-1">
@@ -129,18 +130,17 @@ Memberikan Kemudahan terhadap proses penjualan anda dengan menjadikan bisnis and
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Consult</span>
           </div>
         </div>
-      </div>
     </section>
     <!-- End Product -->
     <!-- Start Service  -->
-    <section id="service" class=" bg-coba-gray p-6">
-      <h1 class="text-5xl text-center text-coba-blue max-md:text-4xl"> What we <b>Offer</b> to you?</h1> 
+    <section id="service" class="  p-6">
+      <h1 class="text-5xl text-center text-coba-gray max-md:text-4xl"> What we <b>Offer</b> to you?</h1> 
       <div class="flex flex-col my-10 container justify-start lg:flex-row items-center gap-20 ">
-        <div class="text-coba-blue justify-start">
+        <div class="text-coba-gray justify-center lg:justify-start ">
           <h1 class="text-4xl font-semibold my-5" > Team on Demand </h1>
           <p class="flex w-72 "> Team on demand was a service that provide you a team for research what process that we can cut and make it more efficient for your Business</p>
         </div> 
-        <div class="flex flex-row w-full justify-end">
+        <div class="flex flex-row w-full justify-end rounded-xl">
           <img src="../src/img/ezgif.com-gif-maker.webp">
         </div>
       </div>
