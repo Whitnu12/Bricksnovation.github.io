@@ -15,3 +15,10 @@
 .btn-white {
   @apply bg-coba-gray text-black;
 }
+
+.s2{
+  @apply flex flex-col-reverse my-10 container justify-end lg:flex-row-reverse items-center text-center gap-20 lg:text-left
+}
+.s1{
+  @apply flex flex-col-reverse my-10  container justify-start lg:flex-row items-center text-center gap-20
+}
