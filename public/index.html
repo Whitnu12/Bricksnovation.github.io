@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brick Novation</title>
     <link rel="stylesheet" href="./css/style.css" />
-  </head>
+    <link rel="stylesheet" href="/node_modules/imagehover.css/css/imagehover.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  </head>
   <body class="font-sans bg-black scroll-smooth">
     <!-- Start Navbar -->
     <header>
@@ -174,11 +175,37 @@
         <h1 class="text-4xl text-center"> Our Past <b>Project</h1>
       </div>
       <div class="container relative grid grid-cols-3 gap-2 max-sm:grid-cols-1">
+        <!-- Bricks Logo -->
         <div class=" bg-slate-400 filter backdrop-blur-sm bg-opacity-10 col-span-1">
           <img src="/src/img/png_20221119_102117_0000.png" class="h-auto" >
         </div> 
-        <div class="bg-slate-400 col-span-2"> <img class="h-auto" src="/src/img/Screenshot_20221129_182317.png" alt="" srcset=""></div> 
-        <div class="bg-slate-400 col-span-3"><img class="h-auto" src="/src/img/Screenshot_20221129_183447.png" alt="" srcset=""></div>         
+        <!-- Portofolio SMP -->
+        <div class="col-span-2 ">
+          <figure class="imghvr-blur">
+            <img src="../src/img/Screenshot_20221129_182317.png">
+            <figcaption class="text-center flex items-center justify-center h-auto">
+              <div class="ih-fade-down ih-delay-md">
+                <h3 class="text-3xl">SMPN 6 Nekamese</h3>
+                <p class="font-semibold text-coba-gray"> School Information System</p>
+                <p class="font-semibold text-green-400"> Done <i class="fa-sharp fa-solid fa-check text-green-400"></i></p> 
+              </div>          
+            </figcaption>
+            <a href="https://smpn6nekamese.sch.id"></a>
+          </figure>
+        </div> 
+        <div class="bg-slate-400 col-span-3">
+          <figure class="imghvr-blur">
+            <img src="/src/img/Screenshot_20221129_183447.png">
+            <figcaption class="text-center flex items-center justify-center h-auto">
+              <div class="ih-fade-down ih-delay-md">
+                <h3 class="text-3xl">SMKN 2 Kupang</h3>
+                <p class="font-semibold text-coba-gray"> School Information System</p>
+                <p class="font-semibold text-coba-yellow"> On Going <i class="fa-solid fa-circle-notch fa-spin text-coba-yellow"></i></p> 
+              </div>          
+            </figcaption>
+            <!-- <a href="https://smpn6nekamese.sch.id"></a> -->
+          </figure>
+        </div>         
       </div>
     </section>
   </body>
